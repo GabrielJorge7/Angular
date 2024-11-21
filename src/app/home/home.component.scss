@@ -1,0 +1,105 @@
+.container-xl {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 12px rgba(0, 0, 0, 0.1) !important;
+    padding: 0px;
+    margin-top: 6%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.table-responsive {
+    margin: 30px 0;
+}
+
+.table-wrapper {
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    min-width: 1000px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.table-title {
+    padding-bottom: 15px;
+    background: #ff0055; /* Cor do título conforme o primeiro código */
+    color: #ffffff;
+    padding: 16px 30px;
+    min-width: 100%;
+    margin: -20px -25px 10px;
+    border-radius: 8px 8px 0 0;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.table-title .btn {
+    color: #ffffff;
+    float: right;
+    font-size: 14px;
+    border: none;
+    min-width: 70px;
+    border-radius: 4px;
+    outline: none !important;
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #0080ff; /* Cor de fundo do botão */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.table-title .btn:hover {
+    background-color: #006db3; /* Cor de fundo do botão ao passar o mouse */
+    transform: scale(1.05);
+}
+
+.table-title .btn i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.table-title .btn span {
+    margin-top: 2px;
+}
+
+.table-content {
+    margin-top: 15px;
+}
+
+.table-content .center-align {
+    text-align: center;
+}
+
+.table-content .delete {
+    color: #f44336; /* Cor para delete */
+    padding: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.table-content .delete:hover {
+    color: #d32f2f; /* Cor para delete ao passar o mouse */
+    transform: scale(1.1);
+}
+
+.table-content .edit {
+    color: #ffc107; /* Cor para edit */
+    padding: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.table-content .edit:hover {
+    color: #e0a800; /* Cor para edit ao passar o mouse */
+    transform: scale(1.1);
+}
+
+.table-content .view {
+    color: #0d6efd; /* Cor para view */
+    padding: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.table-content .view:hover {
+    color: #0056b3; /* Cor para view ao passar o mouse */
+    transform: scale(1.1);
+}

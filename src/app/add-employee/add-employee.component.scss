@@ -1,0 +1,109 @@
+.container-xl {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1) !important;
+    padding: 0px;
+    margin-top: 6%;
+    width: 50%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.table-responsive {
+    margin: 30px 0;
+}
+
+.table-wrapper {
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05), 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.table-title {
+    padding-bottom: 15px;
+    background: linear-gradient(135deg, #ff0055, #ff4d77);
+    color: #ffffff;
+    padding: 16px 30px;
+    min-width: 100%;
+    margin: -20px -25px 10px;
+    border-radius: 8px 8px 0 0;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.table-title .back {
+    float: right;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.table-title .back:hover {
+    color: #ffd700;
+}
+
+.table-footer {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.table-footer .btn {
+    color: #ffffff;
+    background-color: #ff0055;
+    width: 120px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.table-footer .btn:hover {
+    background-color: #e6004b;
+    transform: scale(1.05);
+}
+
+.table-content {
+    margin-top: 15px;
+}
+
+.table-content select {
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #ffcccc;
+    border: 1px solid #ff0055;
+    border-radius: 4px;
+    appearance: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.table-content select:focus {
+    border-color: #0080ff;
+    background-color: #f9f9f9;
+    outline: none;
+}
+
+.table-content .p-10 {
+    padding: 10px;
+}
+
+.table-content .p-t-b-10 {
+    padding: 10px 0;
+}
+
+.table-content .requiredStar {
+    color: #ff0000;
+    padding-left: 5px;
+}
+
